@@ -41,7 +41,7 @@ const awake = () => {
   const backendreq = async () => {
     try {
       const response = await axios.post(
-        "https://entertainment-app-backend-fsa3.onrender.com//user/login",
+        "https://entertainment-app-backend-fsa3.onrender.com/user/login",
         JSON.stringify({ email: "falseemail", pasword: "falsepassword" }),
         { headers: { "Content-Type": "application/json" } }
       );
